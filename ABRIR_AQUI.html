@@ -68,8 +68,9 @@
         }
 
         .logo-icon {
-            width: 150px;
-            height: 150px;
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
         }
 
         .logo-text h1 {
@@ -390,11 +391,36 @@
         <div class="container">
             <div class="logo-container">
                 <div class="logo">
-                    <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 5 L90 27.5 L90 72.5 L50 95 L10 72.5 L10 27.5 Z" fill="none" stroke="#000" stroke-width="4"/>
-                        <path d="M50 20 L75 35 L75 65 L50 80 L25 65 L25 35 Z" fill="none" stroke="#000" stroke-width="4"/>
-                        <path d="M35 35 L50 27 L50 50 L35 58 Z" fill="#000"/>
-                        <path d="M50 50 L65 42 L65 65 L50 73 Z" fill="#000"/>
+                    <svg class="logo-icon" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Fondo amarillo del hexágono -->
+                        <path d="M100 10 L180 55 L180 145 L100 190 L20 145 L20 55 Z" fill="#FFC107"/>
+                        
+                        <!-- Hexágono exterior negro -->
+                        <path d="M100 10 L180 55 L180 145 L100 190 L20 145 L20 55 Z" 
+                              fill="none" stroke="#000" stroke-width="14" stroke-linejoin="miter"/>
+                        
+                        <!-- Hexágono medio negro -->
+                        <path d="M100 35 L160 67 L160 133 L100 165 L40 133 L40 67 Z" 
+                              fill="none" stroke="#000" stroke-width="12" stroke-linejoin="miter"/>
+                        
+                        <!-- Caja/Paquete interior -->
+                        <g transform="translate(100,100)">
+                            <!-- Parte superior de la caja (tapa) -->
+                            <path d="M -30,-25 L 0,-40 L 30,-25 L 30,0 L 0,15 L -30,0 Z" 
+                                  fill="#000" stroke="#000" stroke-width="2"/>
+                            
+                            <!-- Lado izquierdo de la caja -->
+                            <path d="M -30,0 L -30,30 L 0,45 L 0,15 Z" 
+                                  fill="#000" opacity="0.7"/>
+                            
+                            <!-- Lado derecho de la caja -->
+                            <path d="M 30,0 L 30,30 L 0,45 L 0,15 Z" 
+                                  fill="#000" opacity="0.5"/>
+                            
+                            <!-- Línea central decorativa -->
+                            <path d="M 0,-40 L 0,45" 
+                                  stroke="#FFC107" stroke-width="3"/>
+                        </g>
                     </svg>
                     <div class="logo-text">
                         <h1>PALLETS<br><span>PREMIUM</span></h1>

@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════════════════
+  📸 CÓMO AGREGAR TU LOGO A LA LANDING PAGE
+═══════════════════════════════════════════════════════════════════
+
+MÉTODO 1: COPIAR LA IMAGEN (MÁS FÁCIL) ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Guarda tu imagen del logo con el nombre: logo.jpg
+   (O logo.png si es PNG)
+
+2. Copia el archivo a esta carpeta:
+   C:\Users\IAGG2\OneDrive\PalletsLandings\PalletsLanding\assets\images\
+
+3. Abre el archivo: ABRIR_AQUI.html con un editor de texto
+   (Notepad++, Visual Studio Code, o incluso Notepad)
+
+4. Busca esta línea (usa Ctrl+F):
+   <img src="https://i.imgur.com/placeholder.jpg"
+
+5. Reemplázala con:
+   <img src="assets/images/logo.jpg"
+
+6. Guarda el archivo (Ctrl+S)
+
+7. Abre ABRIR_AQUI.html en tu navegador
+
+¡Listo! Tu logo aparecerá.
+
+═══════════════════════════════════════════════════════════════════
+
+MÉTODO 2: SUBIR A IMGUR Y USAR URL (MÁS CONFIABLE) ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: https://imgur.com/upload
+
+2. Arrastra tu imagen del logo
+
+3. Una vez subida, haz click derecho en la imagen
+
+4. Selecciona "Copiar dirección de imagen"
+
+5. Abre ABRIR_AQUI.html con un editor
+
+6. Busca: <img src="https://i.imgur.com/placeholder.jpg"
+
+7. Reemplaza "https://i.imgur.com/placeholder.jpg" con la URL que copiaste
+
+8. Guarda y abre en el navegador
+
+═══════════════════════════════════════════════════════════════════
+
+MÉTODO 3: DÉJAME HACERLO POR TI ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Sube tu logo a Imgur: https://imgur.com/upload
+
+2. Copia la URL de la imagen
+
+3. Dime la URL y yo actualizaré el archivo automáticamente
+
+═══════════════════════════════════════════════════════════════════
+
+💡 NOTAS IMPORTANTES:
+
+- El logo debe ser cuadrado o casi cuadrado para verse bien
+- Formato recomendado: PNG con fondo transparente
+- Tamaño recomendado: 500x500 píxeles o mayor
+- La imagen se ajustará automáticamente
+
+═══════════════════════════════════════════════════════════════════
