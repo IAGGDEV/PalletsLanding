@@ -191,7 +191,7 @@
         .btn-info,
         .btn-whatsapp,
         .btn-whatsapp-group {
-            background-color: var(--black);
+            background-color: #25D366;
             color: var(--white);
             border: none;
             border-radius: 50px;
@@ -200,18 +200,30 @@
             font-family: 'Poppins', sans-serif;
             font-weight: 600;
             text-align: center;
-            margin: 30px auto;
+            margin: 30px auto 10px;
             display: inline-block;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
             text-decoration: none;
         }
 
         .btn-info:hover,
         .btn-whatsapp:hover,
         .btn-whatsapp-group:hover {
+            background-color: #128C7E;
             transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+        
+        .btn-container {
+            text-align: center;
+        }
+        
+        .seller-name {
+            font-size: 0.75rem;
+            color: #999;
+            margin-top: 5px;
+            font-style: italic;
         }
 
         .btn-text {
@@ -500,10 +512,13 @@
                     <p class="price-amount">$XXXX MIL PESOS</p>
                 </div>
                 
-                <a href="https://wa.me/52XXXXXXXXXX" class="btn-info" target="_blank">
-                    <span class="btn-text">MÁS INFORMACIÓN</span>
-                    <span class="btn-subtext">Habla con un asesor</span>
-                </a>
+                <div class="btn-container">
+                    <a href="https://wa.me/5216371600718" class="btn-info" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="btn-text">Habla con uno de nuestros vendedores</span>
+                    </a>
+                    <p class="seller-name">Angie</p>
+                </div>
             </div>
         </div>
     </section>
@@ -557,16 +572,19 @@
                 <p class="products-footer">Solo tienes que ofrecer.</p>
                 <p class="products-footer-bold">Y dejar que el producto haga su magia.</p>
                 
-                <a href="https://wa.me/52XXXXXXXXXX" class="btn-info" target="_blank">
-                    <span class="btn-text">MÁS INFORMACIÓN</span>
-                    <span class="btn-subtext">Ver pallets disponibles</span>
-                </a>
+                <div class="btn-container">
+                    <a href="https://wa.me/5216371600718" class="btn-info" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="btn-text">Habla con uno de nuestros vendedores</span>
+                    </a>
+                    <p class="seller-name">Angie</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/52XXXXXXXXXX" class="whatsapp-float" target="_blank" rel="noopener">
+    <a href="https://wa.me/5216371600718" class="whatsapp-float" target="_blank" rel="noopener" title="Contacta con Angie">
         <i class="fab fa-whatsapp"></i>
     </a>
 
