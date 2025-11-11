@@ -375,45 +375,62 @@
         <div class="container">
             <div class="logo-container">
                 <div class="logo">
-                    <svg class="logo-complete" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="logo-complete" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
                         <!-- Hexágono exterior negro -->
-                        <path d="M100 20 L180 65 L180 155 L100 200 L20 155 L20 65 Z" 
-                              fill="none" stroke="#2d2d2d" stroke-width="12" stroke-linejoin="round"/>
+                        <path d="M125 25 L215 75 L215 175 L125 225 L35 175 L35 75 Z" 
+                              fill="none" 
+                              stroke="#1a1a1a" 
+                              stroke-width="16" 
+                              stroke-linejoin="round"/>
                         
-                        <!-- Hexágono interior blanco -->
-                        <path d="M100 35 L165 72 L165 148 L100 185 L35 148 L35 72 Z" 
+                        <!-- Hexágono medio blanco -->
+                        <path d="M125 50 L190 87 L190 163 L125 200 L60 163 L60 87 Z" 
                               fill="#ffffff"/>
                         
-                        <!-- Caja/Paquete amarillo -->
-                        <g transform="translate(100, 95)">
-                            <!-- Cara superior -->
-                            <path d="M -35,-30 L 0,-45 L 35,-30 L 35,-5 L 0,10 L -35,-5 Z" 
-                                  fill="#FDB913" stroke="#FDB913" stroke-width="1"/>
+                        <!-- Hexágono interior delgado -->
+                        <path d="M125 60 L180 92 L180 158 L125 190 L70 158 L70 92 Z" 
+                              fill="none" 
+                              stroke="#1a1a1a" 
+                              stroke-width="8" 
+                              stroke-linejoin="round"/>
+                        
+                        <!-- Caja 3D amarilla -->
+                        <g transform="translate(125, 115)">
+                            <!-- Cara superior de la caja -->
+                            <path d="M -30,-25 L 0,-38 L 30,-25 L 30,-5 L 0,8 L -30,-5 Z" 
+                                  fill="#F5A623" 
+                                  stroke="#F5A623" 
+                                  stroke-width="1"/>
                             
-                            <!-- Cara izquierda -->
-                            <path d="M -35,-5 L -35,35 L 0,50 L 0,10 Z" 
+                            <!-- Cara lateral izquierda -->
+                            <path d="M -30,-5 L -30,28 L 0,41 L 0,8 Z" 
+                                  fill="#E89B1B"/>
+                            
+                            <!-- Cara lateral derecha -->
+                            <path d="M 0,8 L 0,41 L 30,28 L 30,-5 Z" 
                                   fill="#F5A623"/>
                             
-                            <!-- Cara derecha -->
-                            <path d="M 0,10 L 0,50 L 35,35 L 35,-5 Z" 
-                                  fill="#FDB913"/>
+                            <!-- Línea de detalle -->
+                            <line x1="0" y1="-38" x2="0" y2="41" 
+                                  stroke="#FFBB33" 
+                                  stroke-width="2.5"/>
                         </g>
                         
                         <!-- Texto PALLETS -->
-                        <text x="250" y="100" 
-                              font-family="Arial, sans-serif" 
-                              font-size="85" 
+                        <text x="280" y="115" 
+                              font-family="'Arial Black', 'Arial Bold', sans-serif" 
+                              font-size="95" 
                               font-weight="900" 
                               fill="#000000"
-                              letter-spacing="-2">PALLETS</text>
+                              letter-spacing="-1">PALLETS</text>
                         
                         <!-- Texto PREMIUM -->
-                        <text x="250" y="165" 
-                              font-family="Arial, sans-serif" 
-                              font-size="85" 
+                        <text x="280" y="195" 
+                              font-family="'Arial Black', 'Arial Bold', sans-serif" 
+                              font-size="95" 
                               font-weight="900" 
                               fill="#000000"
-                              letter-spacing="-2">PREMIUM</text>
+                              letter-spacing="-1">PREMIUM</text>
                     </svg>
                 </div>
             </div>
