@@ -1,0 +1,98 @@
+═══════════════════════════════════════════════════════════════════
+  📸 CÓMO AGREGAR TUS IMÁGENES DE PRODUCTOS REALES
+═══════════════════════════════════════════════════════════════════
+
+🎯 OPCIÓN RÁPIDA (Recomendada - Yo lo hago por ti) ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Tienes 4 imágenes de productos que necesito agregar:
+
+📸 Imagen 1: Productos en caja con etiquetas
+📸 Imagen 2: Camisetas Adidas, Puma en mesa
+📸 Imagen 3: Polo verde turquesa con etiquetas
+📸 Imagen 4: Shorts y ropa deportiva
+
+PASOS:
+
+1. Ve a: https://imgur.com/upload
+
+2. Sube las 4 imágenes (puedes arrastrarlas todas juntas)
+
+3. Una vez subidas, haz click derecho en cada imagen
+
+4. Selecciona "Copiar dirección de imagen"
+
+5. Dame las 4 URLs en el chat, así:
+
+   Imagen 1: https://i.imgur.com/ABC123.jpg
+   Imagen 2: https://i.imgur.com/DEF456.jpg
+   Imagen 3: https://i.imgur.com/GHI789.jpg
+   Imagen 4: https://i.imgur.com/JKL012.jpg
+
+6. ¡YO las actualizo en 1 minuto!
+
+═══════════════════════════════════════════════════════════════════
+
+🔧 OPCIÓN MANUAL (Lo haces tú) ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Sube tus imágenes a Imgur
+
+2. Abre: ABRIR_AQUI.html con un editor de texto
+
+3. Busca (Ctrl+F): "via.placeholder.com"
+
+4. Encontrarás 4 líneas con URLs de placeholder
+
+5. Reemplaza cada URL así:
+
+   ANTES:
+   src="https://via.placeholder.com/500x350/FFC107/000000?text=Imagen+1"
+   
+   DESPUÉS:
+   src="https://i.imgur.com/TU_IMAGEN_1.jpg"
+
+6. Repite para las 4 imágenes
+
+7. Guarda el archivo (Ctrl+S)
+
+8. Abre ABRIR_AQUI.html en tu navegador
+
+═══════════════════════════════════════════════════════════════════
+
+📋 UBICACIÓN DE LAS IMÁGENES EN EL HTML
+
+Línea aproximada 517: Imagen 1 (Productos en caja)
+Línea aproximada 522: Imagen 2 (Adidas/Puma en mesa)
+Línea aproximada 527: Imagen 3 (Polo verde)
+Línea aproximada 532: Imagen 4 (Shorts deportivos)
+
+═══════════════════════════════════════════════════════════════════
+
+🎨 ESPECIFICACIONES TÉCNICAS
+
+✅ Las imágenes se mostrarán en una cuadrícula 2x2
+✅ Tamaño: 350px de alto (se ajusta automáticamente)
+✅ Bordes redondeados con sombra elegante
+✅ Efecto hover (se elevan al pasar el mouse)
+✅ Responsive: En móvil se apilan en 1 columna
+✅ Optimizadas para carga rápida (lazy loading)
+
+═══════════════════════════════════════════════════════════════════
+
+💡 RECOMENDACIONES
+
+- Usa imágenes de buena calidad (mínimo 800x600 px)
+- Formato JPG o PNG
+- Las imágenes se recortarán para mantener proporción
+- Muestra tus mejores productos con etiquetas visibles
+- Asegúrate que se vean las marcas (Adidas, Puma, etc.)
+
+═══════════════════════════════════════════════════════════════════
+
+⚡ LA FORMA MÁS RÁPIDA:
+
+¡Solo sube tus 4 fotos a Imgur y dame las URLs!
+Yo las integro inmediatamente en la landing page. 🚀
+
+═══════════════════════════════════════════════════════════════════
