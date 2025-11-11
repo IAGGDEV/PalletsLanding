@@ -107,19 +107,58 @@
         }
 
         .store-image {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 20px;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        .store-image p {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: var(--dark-gray);
+        .brands-title {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--black);
+            margin-bottom: 30px;
+        }
+
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .brand-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            border: 2px solid #f0f0f0;
+            min-height: 100px;
+        }
+
+        .brand-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: var(--primary-yellow);
+        }
+
+        .brand-item img {
+            max-width: 100%;
+            max-height: 60px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            filter: grayscale(20%);
+            transition: filter 0.3s ease;
+        }
+
+        .brand-item:hover img {
+            filter: grayscale(0%);
         }
 
         /* ========== Season Section ========== */
@@ -385,6 +424,21 @@
                 height: 300px;
             }
             
+            .brands-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+                padding: 20px;
+            }
+            
+            .brand-item {
+                padding: 15px;
+                min-height: 80px;
+            }
+            
+            .brand-item img {
+                max-height: 50px;
+            }
+            
             .hero-title {
                 font-size: 1.3rem;
             }
@@ -482,12 +536,45 @@
         </div>
     </section>
 
-    <!-- Store Image Section -->
+    <!-- Brands Section -->
     <section class="store-section">
         <div class="container">
             <div class="store-image">
-                <p>📸 [Aquí va tu imagen de la tienda]</p>
-                <p style="font-size: 0.9rem; margin-top: 10px; color: #666;">Agrega tu foto en assets/images/store.jpg</p>
+                <h2 class="brands-title">Marcas Premium que Manejamos</h2>
+                <div class="brands-grid">
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/c91432?text=Levi%27s" 
+                             alt="Levi's" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/000000?text=Eddie+Bauer" 
+                             alt="Eddie Bauer" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/00237d?text=FILA" 
+                             alt="FILA" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/000000?text=PUMA" 
+                             alt="Puma" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/000000?text=DKNY" 
+                             alt="DKNY Jeans" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/000000?text=Calvin+Klein" 
+                             alt="Calvin Klein" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/1c5ba3?text=adidas" 
+                             alt="Adidas" loading="lazy">
+                    </div>
+                    <div class="brand-item">
+                        <img src="https://via.placeholder.com/150x60/ffffff/000000?text=Champion" 
+                             alt="Champion" loading="lazy">
+                    </div>
+                </div>
             </div>
         </div>
     </section>

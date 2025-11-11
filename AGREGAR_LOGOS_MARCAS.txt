@@ -1,0 +1,125 @@
+═══════════════════════════════════════════════════════════════════
+  🏷️ CÓMO AGREGAR LOS LOGOS DE MARCAS REALES
+═══════════════════════════════════════════════════════════════════
+
+🎯 OPCIÓN RÁPIDA (Recomendada - Yo lo hago por ti) ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Tienes 8 logos de marcas premium que necesito agregar:
+
+🏷️ Logo 1: Levi's (rojo y blanco)
+🏷️ Logo 2: Eddie Bauer (negro, script)
+🏷️ Logo 3: FILA (azul y rojo)
+🏷️ Logo 4: Puma (negro con puma saltando)
+🏷️ Logo 5: DKNY Jeans (negro)
+🏷️ Logo 6: Calvin Klein (negro, minimalista)
+🏷️ Logo 7: Adidas (azul con 3 barras)
+🏷️ Logo 8: Champion (negro y rojo)
+
+PASOS:
+
+1. Ve a: https://imgur.com/upload
+
+2. Sube los 8 logos (puedes arrastrarlos todos juntos)
+
+3. Una vez subidos, haz click derecho en cada imagen
+
+4. Selecciona "Copiar dirección de imagen"
+
+5. Dame las 8 URLs en el chat, así:
+
+   Levi's: https://i.imgur.com/ABC123.png
+   Eddie Bauer: https://i.imgur.com/DEF456.png
+   FILA: https://i.imgur.com/GHI789.png
+   Puma: https://i.imgur.com/JKL012.png
+   DKNY: https://i.imgur.com/MNO345.png
+   Calvin Klein: https://i.imgur.com/PQR678.png
+   Adidas: https://i.imgur.com/STU901.png
+   Champion: https://i.imgur.com/VWX234.png
+
+6. ¡YO las actualizo en 2 minutos!
+
+═══════════════════════════════════════════════════════════════════
+
+🔧 OPCIÓN MANUAL (Lo haces tú) ✅
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Sube tus logos a Imgur
+
+2. Abre: ABRIR_AQUI.html con un editor de texto
+
+3. Busca (Ctrl+F): "via.placeholder.com/150x60"
+
+4. Encontrarás 8 líneas con URLs de placeholder
+
+5. Reemplaza cada URL así:
+
+   ANTES:
+   src="https://via.placeholder.com/150x60/ffffff/c91432?text=Levi%27s"
+   
+   DESPUÉS:
+   src="https://i.imgur.com/TU_LOGO_LEVIS.png"
+
+6. Repite para los 8 logos
+
+7. Guarda el archivo (Ctrl+S)
+
+8. Abre ABRIR_AQUI.html en tu navegador
+
+═══════════════════════════════════════════════════════════════════
+
+📋 UBICACIÓN DE LOS LOGOS EN EL HTML
+
+Línea aproximada 546: Logo 1 (Levi's)
+Línea aproximada 550: Logo 2 (Eddie Bauer)
+Línea aproximada 554: Logo 3 (FILA)
+Línea aproximada 558: Logo 4 (Puma)
+Línea aproximada 562: Logo 5 (DKNY)
+Línea aproximada 566: Logo 6 (Calvin Klein)
+Línea aproximada 570: Logo 7 (Adidas)
+Línea aproximada 574: Logo 8 (Champion)
+
+═══════════════════════════════════════════════════════════════════
+
+🎨 ESPECIFICACIONES TÉCNICAS
+
+✅ Diseño: Grid 4x2 (4 columnas, 2 filas)
+✅ Tamaño de cada logo: Máximo 60px de alto
+✅ Fondo blanco en cada caja
+✅ Bordes redondeados con sombra
+✅ Efecto hover: Se elevan y muestran color completo
+✅ Responsive: En móvil se muestran 2x4
+
+═══════════════════════════════════════════════════════════════════
+
+💡 RECOMENDACIONES
+
+- Usa logos en PNG con fondo transparente (si es posible)
+- O logos con fondo blanco
+- Tamaño recomendado: 300x120 píxeles (proporción horizontal)
+- Formato: PNG para mejor calidad
+- Los logos se ajustarán automáticamente al espacio
+
+═══════════════════════════════════════════════════════════════════
+
+✨ DISEÑO DE LA GALERÍA
+
+Título: "Marcas Premium que Manejamos"
+└─ Grid 4x2
+   ├─ Levi's        Eddie Bauer    FILA           Puma
+   └─ DKNY          Calvin Klein   Adidas         Champion
+
+Cada logo:
+- Fondo blanco
+- Borde gris claro
+- Al pasar mouse: borde amarillo + eleva 5px
+- Ligeramente en escala de grises, a color al hover
+
+═══════════════════════════════════════════════════════════════════
+
+⚡ LA FORMA MÁS RÁPIDA:
+
+¡Solo sube tus 8 logos a Imgur y dame las URLs!
+Yo las integro inmediatamente en la landing page. 🚀
+
+═══════════════════════════════════════════════════════════════════
